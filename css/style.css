@@ -302,9 +302,7 @@ img {
 
 }
 
-.nav-link:hover {
-    color: white;
-}
+
 
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
@@ -316,9 +314,25 @@ img {
 
 
 
+
  /* animacion parrafo index - idolos - socios html */
 /* el logo de boca parte superior izquierda lo copie y pegue de la pagina oficial de bocajuniors (etiqueta svg) */
 /* la animacion es basica para que vaya de derecha a izquierda luego de recargar */
+/* algunos cambios hover etc son para los desafios, se que no son muy esteticos. */
+h4:hover {
+    background-color: rgb(0, 0, 0);
+}
+a:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+
 
 p {
     animation-duration: 4s;
