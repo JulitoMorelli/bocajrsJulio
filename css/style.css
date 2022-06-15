@@ -462,7 +462,7 @@ svg:hover {
 
 .d-block:hover {
     transition: 10s;
-    transition-delay: 5s;
+    transition-delay: 4s;
     transform: rotateY(360deg);
 }
 
