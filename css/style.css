@@ -11,6 +11,7 @@ header {
     justify-content: end;
     align-items: center;
     background-color: rgba(0, 51, 145, .95);
+    
 }
 
 .navimg {
@@ -95,10 +96,7 @@ header {
     text-align: center;
     height: auto;
     max-width: auto;
-    animation: my-animation;
-    animation-name: color;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    
 
 
 }
@@ -215,24 +213,6 @@ img {
     color: white;
 }
 
-@media (max-width:568px) {
-    .imagenes-idolos {
-        display: none;
-        box-sizing: content-box;
-
-    }
-}
-
-
-@media (min-width: 550px) {
-    .imagenes-idolos {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-
-    }
-}
 
 
 
@@ -341,8 +321,6 @@ h2:hover {
     background-color: black;
 }
 
-
-
 p {
     animation-duration: 1s;
     animation-name: entrada;
@@ -368,9 +346,6 @@ p {
     display: flex;
     flex: row;
     justify-content: center;
-
-
-
 }
 
 
@@ -444,15 +419,14 @@ p {
 
 /* EFECTO SOBRE LAS IMAGENES DE GALERIA.HTML */
 .img2:hover {
-    transform: scale(2);
-    transition: 2s;
+    transform: scale(1.2);
+    transition: 1.4s;
     transition-delay: 1.5s;
 
 
 }
 
 svg:hover {
-
     transform: scale(1.3);
     transition: 5s;
     transform: rotateY(360deg);
@@ -465,11 +439,46 @@ svg:hover {
     transform: rotateY(360deg);
 }
 
-
-
-
-
-
 /* AGREGUE SCALE A LAS IMG DE GALERIA.HTML
-EL LOGO SVG LE AGREGUE ROTATE
+EL LOGO SVG LE AGREGUE ROTATE  semana pasada
  */
+
+
+ /* hoy 19/06 agregue cambios y "mejoras"visuales + mediasquerys para emprolijar la galeria.html tanto para mobile como escritorio. */
+ @media (max-width:568px) {
+    .imagenes-idolos {
+        display: none;
+        box-sizing: content-box;
+
+    }
+}
+
+
+@media (min-width: 550px) {
+    .imagenes-idolos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+
+    }
+}
+
+
+@media (max-width:550px) {
+    .img2 {
+        height: 200px;
+        width: 300px;
+        border: 3px solid white;
+    }
+
+    .container {
+        background-color: black;
+    }
+
+    .footer h4 {
+        display: none;
+    }
+
+
+}
