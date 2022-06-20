@@ -148,9 +148,9 @@ a {
     }
 }
 
-
 .section {
-    background-color: rgb(255, 255, 255);
+    background: rgb(173,173,173);
+    background: linear-gradient(0deg, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 100%);
     max-width: 100%;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -159,12 +159,9 @@ a {
     justify-content: center;
 }
 
-
-
-
 .titulo-idolo {
     font-size: 30px;
-    color: rgb(13, 0, 255);
+    color: rgb(0, 0, 0);
     margin: 10px;
 
     font-weight: bold;
@@ -183,8 +180,6 @@ a {
     font-size: 18px;
     margin: 5px;
     padding: 5px;
-    background: rgb(173,173,173);
-background: linear-gradient(0deg, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 100%);
     height: auto;
 }
 
@@ -213,10 +208,6 @@ img {
     background-color: black;
     color: white;
 }
-
-
-
-
 
 .img2 {
     border: 4px solid black;
